@@ -1,0 +1,44 @@
+@font-face {
+    font-family: title-font;
+    src: url(Quicksand-Regular.ttf);
+}
+
+@font-face {
+    font-family: sub-title-font;
+    src: url(Quicksand-Light.ttf)
+}
+
+@font-face {
+    font-family: option-font;
+    src: url(Lato-Light.ttf)
+}
+
+.home-title {
+    font-family: title-font;
+    color: black;
+    text-align: center;
+    margin: auto;
+    /*background-color: black;*/
+}
+
+.home-sub-title {
+    font-family: sub-title-font;
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+
+.home-selection {
+    font-family: option-font;
+    color: black;
+    text-align: left;
+    text-indent: 860px;
+}
+
+.animal-splash {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 600px;
+}

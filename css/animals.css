@@ -1,0 +1,55 @@
+@font-face {
+    font-family: page-title-font;
+    src: url(Lato-Light.ttf)
+}
+
+@font-face {
+    font-family: page-sub-title-font;
+    src: url(Lato-ThinItalic.ttf)
+}
+
+@font-face {
+    font-family: page-para-font;
+    src: url(Lato-Regular.ttf)
+}
+
+.animal-title {
+    font-family: page-title-font;
+    color: black;
+    text-align: center;
+}
+
+.animal-sub-title {
+    font-family: page-sub-title-font;
+    color: black;
+    text-align: center;
+}
+
+.animal-splash {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: auto;
+}
+
+.animal-splash-body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+}
+
+.para-box {
+    /*background-color: yellow*/;
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+}
+
+.animal-para {
+    font-family: page-para-font;
+    color: black;
+    text-align: justify;
+}
